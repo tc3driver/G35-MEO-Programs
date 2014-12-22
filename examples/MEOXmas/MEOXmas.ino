@@ -30,6 +30,7 @@ volatile byte pressed[NUMBUTTONS], justpressed[NUMBUTTONS], justreleased[NUMBUTT
 #define PROG_DUR_SHORT 120  //2 minutes
  
 //Lights initialisation
+//MEOG35String strand_name(pin_number, visible_light_count, physical_light_count, bulb_0, reverse_strand);
 MEOG35String lights_1(13, 50, 50, 0, false);
 //MEOG35String lights_2(12, 50);
  
